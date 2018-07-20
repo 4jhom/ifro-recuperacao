@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="370.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.control.PrincipalController">
+    <children>
+        <Button fx:id="button" layoutX="230.0" layoutY="41.0" onAction="#soma" prefHeight="25.0" prefWidth="87.0" text="soma" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="24.0" layoutY="16.0" text="Numero1" />
+      <Label layoutX="24.0" layoutY="72.0" text="Numero2" />
+      <TextField fx:id="txtNumero2" layoutX="24.0" layoutY="97.0" />
+      <TextField fx:id="txtNumero1" layoutX="24.0" layoutY="41.0" />
+      <TextField fx:id="txtResultado" layoutX="24.0" layoutY="154.0" />
+      <Label layoutX="24.0" layoutY="129.0" text="Resultado" />
+      <Button fx:id="button1" layoutX="230.0" layoutY="85.0" onAction="#divisão" prefHeight="25.0" prefWidth="87.0" text="divisão" />
+      <Button fx:id="button2" layoutX="230.0" layoutY="125.0" onAction="#subtração" prefHeight="25.0" prefWidth="87.0" text="subtração" />
+      <Button fx:id="button3" layoutX="230.0" layoutY="167.0" onAction="#multiplicação" text="multiplicação" />
+      <TextField fx:id="txtCor" layoutX="24.0" layoutY="321.0" />
+      <TextField fx:id="txtModelo" layoutX="24.0" layoutY="208.0" />
+      <TextField fx:id="txtAno" layoutX="24.0" layoutY="264.0" />
+      <Label layoutX="23.0" layoutY="305.0" text="Cor" />
+      <Label layoutX="23.0" layoutY="248.0" text="Ano" />
+      <Label layoutX="23.0" layoutY="192.0" text="Modelo" />
+      <Button fx:id="buttongravar" layoutX="217.0" layoutY="321.0" onAction="#gravar" text="Gravar" />
+    </children>
+</AnchorPane>
